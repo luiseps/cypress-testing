@@ -1,0 +1,16 @@
+{
+  "name": "cypress-testing",
+  "version": "1.0.0",
+  "description": "Test ptoject",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "author": "luiseps16@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^7.2.0",
+    "prettier": "^2.2.1"
+  }
+}
