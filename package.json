@@ -5,12 +5,22 @@
   "main": "index.js",
   "scripts": {
     "cy:open": "cypress open",
-    "cy:run": "cypress run"
+    "cy:tests": "cypress run",
+    "test": "npx cypress run"
   },
+  "keywords": [
+    "cypress",
+    "bdd",
+    "cucumber"
+  ],
   "author": "luiseps16@gmail.com",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^7.2.0",
-    "prettier": "^2.2.1"
+    "cypress": "^7.4.0",
+    "cypress-cucumber-preprocessor": "^4.1.0",
+    "prettier": "^2.3.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/integration/features/step_definitions/**/"
   }
 }
