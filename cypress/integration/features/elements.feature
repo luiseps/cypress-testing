@@ -4,7 +4,8 @@ Feature: Element validations
       Given I open the home page
       When I add an element
       Then I should see that the element is visible
-    
+      
+    @tags
     Scenario: Add elements
       Given I open the home page
       When I add an element

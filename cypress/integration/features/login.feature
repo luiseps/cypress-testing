@@ -7,7 +7,8 @@ Feature: Login to Application
       Given I open the login page
       When I enter my credentials
       Then I should see the login page
-
+      
+    @tags
     Scenario: Login with invalid credentials
       Given I open the login page
       When I enter invalid credentials

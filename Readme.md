@@ -7,3 +7,6 @@ This project contains some basic validations using cypress and cucumber.
 
 - Run all tests
     - npm run test
+
+- Run with tags
+    - mpn run cy:tags
