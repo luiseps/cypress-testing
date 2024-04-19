@@ -1,5 +1,5 @@
 # Cypress testing
-This project contains some basic validations using cypress and cucumber.
+This project contains some basic validations using legacy cypress JS and cucumber.
 
 ## Run tests
 - Compile project
